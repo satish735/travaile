@@ -3,7 +3,7 @@
 
 body{
     background-color: #FAF8ED;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header div:first-child img{ 
@@ -593,7 +593,7 @@ header{
     .humburger img{
         width: 30px;
         height: 25px;
-        margin-left: 900%;
+        margin-left: 800%;
     }
     .hidme:checked ~ .nav {
         display: block;
@@ -617,6 +617,9 @@ header{
     .dubai-moruvumi{
         margin-top: -30%;
         margin-left: 10%;
+    }
+    .discover-content {
+        width: 100%;
     }
     .whare{
         width: 100%;
@@ -679,13 +682,15 @@ header{
 
     }
     .destinations{
-        display: block;
-        text-align: center;
-        margin-left: 15%;
+        display: none;
+
     }
     .destinations img{
         width: 300px;
         display: block;
+    }
+    .discover-img{
+        width: 100%;
     }
 
 
